@@ -1,6 +1,8 @@
 # ONBOARDING SHELL SCRIPT
 Specifications:
 
+The script has to read each line in a csv file => 
+
 Check the server if a user with that name already exists => ls /home
 
 Create each user with the first name on the server as seen in the csv file => sudo useradd -m "username"
